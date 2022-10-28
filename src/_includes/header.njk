@@ -1,0 +1,88 @@
+<!-- Navigation -->
+<nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/"
+          ><img
+            src="https://storage.googleapis.com/plumasdiscgolf-f3247.appspot.com/Branding/Logos/Natural%20Logo%20-%20wide.svg"
+            width="80"
+            alt="Small Plumas Disc Golf Logo"
+            class="logo"
+/></a>
+        <button
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'home' ? 'active' : '' %>"
+                href="/"
+                >Home</a
+              >
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'membership' ? 'active' : '' %>"
+                href="/membership"
+                >Membership</a
+              >
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'events' ? 'active' : '' %>"
+                href="/events"
+                >Events</a
+              >
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'calendar' ? 'active' : '' %>"
+                href="/calendar"
+                >Calendar</a
+              >
+                </li>
+                <!-- <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'contact' ? 'active' : '' %>"
+                href="/contact"
+                >Contact</a
+              >
+            </li> -->
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger <%= typeof page !== 'undefined' && page === 'donate' ? 'active' : '' %>"
+                href="/donate"
+                >Donate</a
+              >
+                </li>
+                <!-- <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="/about"
+                >About</a
+              >
+            </li> -->
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="https://xstepapparel.com/collections/plumas-disc-golf"
+                >Merch</a
+              >
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>

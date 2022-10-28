@@ -1,0 +1,84 @@
+---
+layout: 'base.njk'
+---
+
+<!-- Event Details Section -->
+<section class="page-section bg-light px-3" id="event-details">
+    <div class="container show-event">
+
+        <!-- New Event Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mt-4 mb-0">{{ title }}</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Event Details Section -->
+        <div class="row">
+            <div class="col">
+                <img src="{{ imageURL }}" class="event-image">
+            </div>
+            <div class="col mx-auto">
+                <h6>Description</h6>
+                <p>{{ content | safe }}</p>
+                <h6>When:</h6>
+                <p>{{ startDate }}</p>
+                <h6>Where:</h6>
+                <p>{{ location }}</p>
+            </div>
+        </div>
+        <div class="row mt-4 mx auto">
+            {% if registrationLink %}
+                <a
+          href="{{ registrationLink }}"
+          class="btn btn-success mx-1"
+          target="_blank"
+          >Registration Page</a
+        >
+            {% else %}
+            {% endif %}
+            {% if pdgaEventLink %}
+                <div class="col">
+                    <a
+          href="{{ pdgaEventLink }}"
+          class="btn btn-primary mx-1"
+          target="_blank"
+          >PDGA Event Page</a
+        >
+                </div>
+            {% else %}
+            {% endif %}
+            {% if discGolfSceneEventLink %}
+                <a
+          href="{{ discGolfSceneEventLink }}"
+          class="btn btn-primary mx-1"
+          target="_blank"
+          >Disc Golf Scene Page</a
+        >
+            {% else %}
+            {% endif %}
+            {% if eventInfoLink %}
+                <a
+          href="{{ eventInfoLink }}"
+          class="btn btn-info mx-1"
+          target="_blank"
+          >Event Information</a
+        >
+            {% else %}
+            {% endif %}
+            {% if resultsPageLink %}
+                <a
+          href="{{ resultsPageLink }}"
+          class="btn btn-secondary mx-1"
+          target="_blank"
+          >Results Page</a
+        >
+            {% else %}
+            {% endif %}
+        </div>
+    </section>

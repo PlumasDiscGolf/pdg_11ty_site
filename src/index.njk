@@ -1,0 +1,28 @@
+---
+title: Home
+layout: 'base.njk'
+---
+
+<!-- News Section -->
+<section class="page-section mt-4">
+  <div class="container">
+    <!-- News Section Heading -->
+    {% include 'section-header.njk' %}
+
+    <!-- News Section Content -->
+    <div class="row justify-content-md-center">
+      {%- for post in collections.post | reverse -%}
+      <div class="col-md-5 text-center m-2 py-3 article-list-item">
+        <h4>
+          {{ post.date | postDate }}
+        </h4>
+        <h5 class="my-3">
+          <a href="{{ post.url }}" class="text-dark">{{ post.data.title }}</a>
+        </h5>
+        <p class="">{{ post.data.description }}</p>
+        <a class="btn btn-secondary" href="{{ post.url }}">more ...</a>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+---
+layout: 'base.njk'
+---
+
+<!-- Article Details Section -->
+  <section class="page-section bg-light" id="article-details">
+    <div class="container show-article mt-4">
+
+      <!-- New Article Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">{{ title }}</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Article Details Section -->
+      <div class="row">
+         <div class="col mx-auto">
+          <p>{{ content | safe }}</p>
+        </div>
+      </div>
+      
+  </section>

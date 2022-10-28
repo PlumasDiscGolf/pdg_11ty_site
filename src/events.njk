@@ -1,0 +1,35 @@
+---
+title: Events
+layout: 'base.njk'
+---
+
+<!-- Event Section  -->
+
+<section class="page-section bg-light" id="events">
+  <div class="container mt-4">
+    <!-- Event Section Heading -->
+
+    {% include 'section-header.njk' %}
+
+    <!-- Event Section Content -->
+    <div class="row justify-content-md-center">
+      {%- for post in collections.event | reverse -%}
+      <div class="col-md-5 text-center m-2 py-3 events">
+        <h5>{{ post.date | postDate }}</h5>
+        <img
+          src="{{ post.data.imageURL }}"
+          class="event-image-index my-1 border border-secondary rounded-sm p-1"
+          alt="Event Logo"
+        />
+        <h4 class="my-3">
+          {{ post.data.title }}
+        </h4>
+        <p class="">
+            {{ post.templateContent.substr(0,100) | safe  }}...
+        </p>
+        <a class="btn btn-secondary" href="{{ post.url }}"> Details </a>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
