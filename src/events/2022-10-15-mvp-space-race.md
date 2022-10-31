@@ -1,12 +1,16 @@
 ---
 title: MVP Circuit Space Race hosted by Plumas Disc Golf
-imageURL: '/assets/img/2022-mvp-space-race-logo.png'
-description: The MVP Circuit Events Space Race is here!  This unique event will be played as a glow round, starting at 6:30pm (check-in begins at 6pm). Space Race is designed to be a fast-paced, no holds barred, race to the chains! This event uses shorter tees to increase the chances of those glorious aces.
-location: Pioneer Park Disc Golf Course
+imageURL: /assets/img/2022-mvp-space-race-logo.png
 startDate: 10-15-2022
-registrationLink: 'http://dgscene.com/PDGSpace2022'
-discGolfSceneEventLink: 'http://dgscene.com/PDGSpace2022'
-eventInfoLink: 'https://mvpcircuitevents.com/space-race-2022/'
+endDate: 2022-10-15T17:15:58.622Z
+registrationLink: http://dgscene.com/PDGSpace2022
+eventInfoLink: https://mvpcircuitevents.com/space-race-2022/
+location: Pioneer Park Disc Golf Course
+description: The MVP Circuit Events Space Race is here!  This unique event will
+  be played as a glow round, starting at 6:30pm (check-in begins at 6pm). Space
+  Race is designed to be a fast-paced, no holds barred, race to the chains! This
+  event uses shorter tees to increase the chances of those glorious aces.
+discGolfSceneEventLink: http://dgscene.com/PDGSpace2022
 ---
 
 The MVP Circuit Events Space Race is here!  This unique event will be played as a glow round, starting at 6:30pm (check-in begins at 6pm). Space Race is designed to be a fast-paced, no holds barred, race to the chains! This event uses shorter tees to increase the chances of those glorious aces.
