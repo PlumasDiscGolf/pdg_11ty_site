@@ -1,6 +1,6 @@
 ---
 title: Trilogy Challenge hosted by Plumas Disc Golf
-imageURL: /assets/upload/trilogy-challenge-logo-fullcolor.png
+imageURL: ../upload/trilogy-challenge-logo-fullcolor.png
 description: This is the second year that the Trilogy Challenge will be at
   Pioneer Park Disc Golf Course. We had so much fun last year.
 startDate: 09-24-2022
