@@ -15,6 +15,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "imageURL", widget: "image" }
       - { label: "Start Date", name: "startDate", widget: "date" }
+      - { label: "End Date", name: "endDate", widget: "date" }
       - { label: "Tags", name: "tags", widget: "hidden", default: "event" }
       - { label: "Registration Link", name: "registrationLink", widget: "string", required: false }
       - { label: "PDGA Link", name: "pdgaLink", widget: "string", required: false }
